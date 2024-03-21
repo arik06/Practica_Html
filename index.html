@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etiquetas html </title>
+</head>
+<body>
+    <h1>esto es un encabezado</h1>
+    <h2>sigue siendo un encabezado pero mas pequeño</h2>
+    <h3>sigue siendo un encabezado pero mas pequeño</h3>
+    <h4>sigue siendo un encabezado pero mas pequeño</h4>
+
+    <h1>ahora veremos las listas</h1>
+    <p>contienen listas ordenadas y listas desordenadas</p>
+    
+    una lista ordenada:
+    <ol>
+        <li> primer item de la lista ordenada</li>
+        <li>segundo item de la lista ordenada</li>
+        <li>tercer item de la lista ordenada</li>
+    </ol>
+
+    <h1>ahora veremos la lista desordenada</h1>
+
+    lista desordenada:
+
+    <ul>
+        <li>primer item de la lista desordenada</li>
+        <li>segundo item de la lista desordenada</li>
+        <li>tercer item de la lista desordenada</li>
+    </ul>
+
+
+    <h1> Ahora vamos a ver como ver otro tipo de archivos en la misma pagina</h1>
+
+    la etiqueta que se usa es  <p>"img"</p><img src="./imgs/100-best-games-hp-b.webp" alt="img_video_games" height="550" width="650">
+
+    <h1>Ahora veremos como linkear una pagina de html a otra pagina de html</h1>
+
+    <p>para hacer esto usaremos la etiqueta "a"<a href="./link.html"><h3>LINK</h3></a></p>
+
+
+    <h1>Ahora veremos como agregar tablas </h1>
+    HAY QUE TENER EN CUENTA QUE PODEMOS CREAR UNA TABLA PERO HAY QUE HACER LA CONFIGURACION DE CADA FILA Y CELDAS DE ESTA MANERA
+    LA ETIQUETA QUE SE USA PARA AGHREGAR TABLAS ES: "table"
+
+    <table>
+    <!--el thead  es la cabecera de las celdas -->
+        <thead>
+            <th>Nintendo</th>
+            <th> PlayStation </th>
+            <th> Xbox</th>   
+            <th> PC</th>
+        </thead>
+
+    <!--el tbody es el cuerpo de las celdas -->
+    <tbody>
+        <tr>
+            <td>Mario Bross</td>
+            <td>God of War</td>
+            <td>Halo</td>
+            <td>Steam</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <p>Es cierto que no se ve separada por celdas y columnas esta parte se agrega con css o alguna libreria para poder estilizar</p>
+
+
+    <h1>Formularios</h1>
+
+<p> veremos lo que es un formulario </p>
+
+<p>sigue siendo un encabezado pero mas pequeñoarte infeiror que se agrega un input y un submit que es la parte donde
+    ingresas el texto, numero etc eso depende para que necesites el formulario y el input es el boton enviar
+</p>
+
+<form>
+    <input type="number" placeholder="Plataforma favorita?" name=" videogame">
+    <input type="submit">
+</form>
+
+<div>
+    <p>ejemplos de formularios </p>
+</div>
+
+<div>
+    <input type="name" type="text" placeholder="Name">
+
+</div>
+
+<div>
+    Juego favorito?
+    <input type="radio" name="videogame" value="Mario Bross"> Mario Bross
+    <input type="radio" name="videogame" value="God of War"> God of war 
+    <input type="radio" name="videogame" value="Halo"> Halo
+    <input type="radio" name="videogame" value="Steam"> Steam
+</div>
+<br>
+<div>
+    <p>en el caso de password cuando le demos el tipo al poner la password se taparan los caracteres</p>
+    <input type="password" name="password" placeholder="Password">
+</div>
+<br>
+<br>
+<div>
+    <p>en este caso notaras al dar click que extiende una lista</p>
+    <input name="video juegos" list="Videojuegos" placeholder="Videojuegos">
+    <datalist id="Videojuegos">
+        <option value="Mario Bross"></option>
+        <option value="God of War"></option>
+        <option value="Halo"></option>
+        <option value="Steam"></option>
+</div>
+<br><br>
+<footer>
+    Hasta aqui llegamos con el corto aprendizaje de html 
+<br>
+    creator:
+    PEPEORTIZ
+</footer>
+</body>
+</html>
