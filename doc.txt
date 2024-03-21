@@ -1,0 +1,20 @@
+responsive design 
+
+*viewport: el viewport es lo que el usuario realmente puede ver 
+
+
+*media queries:  el control de como se va ver nuestra pagina en diferentes dispositivos 
+
+
+*flexbox:  
+
+
+*grids 
+
+
+
+
+boostrap: biblioteca de css
+
+
+>de
